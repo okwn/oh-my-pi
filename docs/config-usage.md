@@ -4,6 +4,8 @@ This document describes how the coding-agent resolves configuration today: which
 
 ## Scope
 
+This document covers configuration discovery and resolution for all subsystems. For **model and provider configuration** (the `models.yml` file, provider credentials, model roles, etc.), see [models.md](./models.md).
+
 Primary implementation:
 
 - `packages/coding-agent/src/config.ts`
