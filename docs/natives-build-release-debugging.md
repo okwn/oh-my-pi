@@ -2,7 +2,7 @@
 
 This runbook describes how `@oh-my-pi/pi-natives` produces `.node` addons, generated declarations, and compiled-binary embedded payloads, and how to debug loader/build failures.
 
-It follows the architecture terms from `docs/natives-architecture.md`:
+It follows the architecture terms from [natives-architecture.md](./natives-architecture.md):
 
 - **build-time artifact production** (`scripts/build-native.ts`)
 - **embedded addon manifest generation** (`scripts/embed-native.ts`)

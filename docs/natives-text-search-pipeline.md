@@ -2,7 +2,7 @@
 
 This document maps the `@oh-my-pi/pi-natives` text/search/code surface from generated JS/TS exports to Rust N-API modules and back to JS result objects.
 
-Terminology follows `docs/natives-architecture.md`:
+Terminology follows [natives-architecture.md](./natives-architecture.md):
 
 - **Generated binding**: public API in `packages/natives/native/index.d.ts`.
 - **Rust module layer**: N-API exports in `crates/pi-natives/src/*`.
