@@ -30,6 +30,8 @@ For provider-based discovery (native/Claude/Codex/Agents/plugin providers), skil
 
 Nested patterns like `<skills-root>/group/<skill>/SKILL.md` are not discovered by provider loaders.
 
+> **Warning**: Scanning is non-recursive. Skills nested more than one level deep under `skills/` (e.g., `skills/group/nested/skill/SKILL.md`) will not be discovered by provider loaders or `customDirectories` scanning.
+
 For `skills.customDirectories`, scanning uses the same non-recursive layout (`*/SKILL.md`).
 
 ```text
