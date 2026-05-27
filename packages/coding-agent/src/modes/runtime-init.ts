@@ -80,7 +80,7 @@ export async function initializeExtensions(session: AgentSession, options: Initi
 			getSystemPrompt: () => session.systemPrompt,
 			compact: instructionsOrOptions => runExtensionCompact(session, instructionsOrOptions),
 		},
-		// ExtensionCommandContextActions — commands invokable via prompt("/command")
+		// ExtensionCommandContextActions — commands invocable via prompt("/command")
 		{
 			getContextUsage: () => session.getContextUsage(),
 			waitForIdle: () => session.agent.waitForIdle(),

@@ -515,7 +515,7 @@ export function getInstallId(): string {
 			cachedInstallId = existing;
 			return existing;
 		}
-		// File present but unparseable — fall through and overwrite below.
+		// File present but unparsable — fall through and overwrite below.
 		observedInvalid = existing.length > 0;
 	} catch {}
 
